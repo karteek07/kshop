@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { CartContext } from "../context/CartContext";
-import k from "../imgs/k.svg";
+import k from "../assets/k.svg";
 import { FaShoppingCart, FaHome } from "react-icons/fa";
 
 const HeaderContainer = styled.header`
