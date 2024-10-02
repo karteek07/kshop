@@ -79,7 +79,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       </Top>
       <Bottom>
         <ProductPrice>₹{(product.price * 82).toFixed(2)}</ProductPrice>
-        <DetailsButton to={`/product/${product.id}`}>
+        <DetailsButton to={`/kshop/product/${product.id}`}>
           View Details
         </DetailsButton>
       </Bottom>

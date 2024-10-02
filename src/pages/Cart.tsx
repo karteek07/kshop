@@ -126,7 +126,7 @@ const Cart: React.FC = () => {
       <Container>
         <h1>Your Cart</h1>
         <p>Your cart is empty.</p>
-        <Link to="/">Go Back to Home</Link>
+        <Link to="/kshop">Go Back to Home</Link>
       </Container>
     );
   }
@@ -157,7 +157,7 @@ const Cart: React.FC = () => {
         </CartItemContainer>
       ))}
       <Total>Total: ₹{(totalPrice * 82).toFixed(2)}</Total>
-      <CheckoutButton to="/checkout">Proceed to Checkout</CheckoutButton>
+      <CheckoutButton to="/kshop/checkout">Proceed to Checkout</CheckoutButton>
       <ClearCartButton onClick={clearCart}>Clear Cart</ClearCartButton>
     </Container>
   );

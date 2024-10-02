@@ -117,7 +117,7 @@ const Checkout: React.FC = () => {
 
       // Optionally, navigate to a confirmation page after a delay
       setTimeout(() => {
-        navigate("/");
+        navigate("/kshop");
       }, 5000);
     }
   };
@@ -140,7 +140,7 @@ const Checkout: React.FC = () => {
           Your cart is empty. Please add products to your cart before proceeding
           to checkout.
         </p>
-        <button onClick={() => navigate("/")}>Go to Home</button>
+        <button onClick={() => navigate("/kshop")}>Go to Home</button>
       </Container>
     );
   }

@@ -54,7 +54,7 @@ const Header: React.FC = () => {
       <Nav>
         <div>
           <Link
-            to="/"
+            to="/kshop"
             style={{
               color: "#fff",
               textDecoration: "none",
@@ -66,11 +66,11 @@ const Header: React.FC = () => {
           </Link>
         </div>
         <NavLinks>
-          <Link to="/">
+          <Link to="/kshop">
             <FaHome style={{ transform: "translateY(15%)" }} /> 
              {" "} Home
           </Link>
-          <Link to="/cart">
+          <Link to="/kshop/cart">
             <FaShoppingCart style={{ transform: "translateY(15%)" }} /> 
              {" "} Cart
             {totalItems > 0 && <CartCount>{totalItems}</CartCount>}
